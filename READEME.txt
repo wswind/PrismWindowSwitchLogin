@@ -1,0 +1,4 @@
+demos of showing a login window before main window.
+
+reference:
+1. https://github.com/ZhengDaoWang/PrismMetroSample.git
