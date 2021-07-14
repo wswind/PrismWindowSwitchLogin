@@ -1,10 +1,10 @@
 ﻿using Prism.Mvvm;
 
-namespace LoginBefore.ViewModels
+namespace ShellSwitchDemo2.ViewModels
 {
     public class MainWindowViewModel : BindableBase
     {
-        private string _title = "Prism Application";
+        private string _title = "Main Window";
         public string Title
         {
             get { return _title; }

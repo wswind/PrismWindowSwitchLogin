@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginBefore", "LoginBefore.csproj", "{8C8C1484-A45D-42D2-8AB1-8AD02F7E7B60}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShellSwitchDemo2", "ShellSwitchDemo2.csproj", "{75FAADD8-A1DE-4968-925C-DF6988F0576D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8C8C1484-A45D-42D2-8AB1-8AD02F7E7B60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8C8C1484-A45D-42D2-8AB1-8AD02F7E7B60}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8C8C1484-A45D-42D2-8AB1-8AD02F7E7B60}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8C8C1484-A45D-42D2-8AB1-8AD02F7E7B60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75FAADD8-A1DE-4968-925C-DF6988F0576D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75FAADD8-A1DE-4968-925C-DF6988F0576D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75FAADD8-A1DE-4968-925C-DF6988F0576D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75FAADD8-A1DE-4968-925C-DF6988F0576D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {F8312F22-24FE-4B8B-B6AC-7E54E3F2B968}
+		SolutionGuid = {DCF5879A-7876-482F-B582-420BF9BDE21E}
 	EndGlobalSection
 EndGlobal

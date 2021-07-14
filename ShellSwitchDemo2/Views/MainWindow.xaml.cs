@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace LoginBefore.Views
+namespace ShellSwitchDemo2.Views
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

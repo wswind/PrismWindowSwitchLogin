@@ -1,11 +1,10 @@
-﻿using LoginBefore.Views;
-using Prism.Ioc;
+﻿using Prism.Ioc;
+using ShellSwitchDemo2.Views;
 using System.Windows;
 
-namespace LoginBefore
+namespace ShellSwitchDemo2
 {
     /// <summary>
-    /// https://stackoverflow.com/a/57097327/7726468
     /// Interaction logic for App.xaml
     /// </summary>
     public partial class App
