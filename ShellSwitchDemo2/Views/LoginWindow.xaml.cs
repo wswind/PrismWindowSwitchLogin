@@ -13,10 +13,10 @@ namespace ShellSwitchDemo2.Views
         {
             InitializeComponent();
             LoginWindowViewModel viewModel = DataContext as LoginWindowViewModel;
-            viewModel.ChangeWindow += ChangeWindow;
+            viewModel.SwitchWindow += SwitchWindow;
         }
 
-        private void ChangeWindow(Window shell)
+        private void SwitchWindow(Window shell)
         {
             if (shell != null)
             {

@@ -29,9 +29,9 @@ namespace ShellSwitchDemo2.ViewModels
         private void ExecuteLogin()
         {
             var shell = _container.Resolve<MainWindow>();
-            ChangeWindow?.Invoke(shell);
+            SwitchWindow?.Invoke(shell);
         }
 
-        public Action<Window> ChangeWindow;
+        public Action<Window> SwitchWindow;
     }
 }
