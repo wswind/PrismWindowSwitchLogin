@@ -10,8 +10,7 @@ namespace ShellSwitchDemo2.ViewModels
     public class LoginWindowViewModel : BindableBase
     {
         private string _title = "Login Window";
-        private IContainerExtension _container;
-
+       
         public string Title
         {
             get { return _title; }
@@ -19,19 +18,18 @@ namespace ShellSwitchDemo2.ViewModels
         }
 
        
-        public LoginWindowViewModel(IContainerExtension container)
+        public LoginWindowViewModel()
         {
-            _container = container;
+            
         }
 
         public DelegateCommand LoginCommand => new DelegateCommand(ExecuteLogin);
 
         private void ExecuteLogin()
         {
-            var shell = _container.Resolve<MainWindow>();
-            SwitchWindow?.Invoke(shell);
+            SwitchWindow?.Invoke();
         }
 
-        public Action<Window> SwitchWindow;
+        public Action SwitchWindow;
     }
 }

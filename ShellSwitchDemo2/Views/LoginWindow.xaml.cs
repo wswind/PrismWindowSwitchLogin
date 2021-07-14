@@ -1,4 +1,5 @@
-﻿using ShellSwitchDemo2.ViewModels;
+﻿using Prism.Ioc;
+using ShellSwitchDemo2.ViewModels;
 using System;
 using System.Windows;
 
@@ -9,15 +10,19 @@ namespace ShellSwitchDemo2.Views
     /// </summary>
     public partial class LoginWindow : Window
     {
-        public LoginWindow()
+        private readonly IContainerExtension _container;
+
+        public LoginWindow(IContainerExtension container)
         {
+            _container = container;
             InitializeComponent();
             LoginWindowViewModel viewModel = DataContext as LoginWindowViewModel;
             viewModel.SwitchWindow += SwitchWindow;
         }
 
-        private void SwitchWindow(Window shell)
+        private void SwitchWindow()
         {
+            Window shell = _container.Resolve<MainWindow>();
             if (shell != null)
             {
                 Application.Current.MainWindow = shell;
